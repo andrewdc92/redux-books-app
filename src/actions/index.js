@@ -1,5 +1,5 @@
 //for now, all actionCreators go in here
 
-function selectBook(book) {
+export function selectBook(book) {
   console.log('A book has been selected: ', book.title)
 }
